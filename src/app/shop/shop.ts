@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 
-import { Menu } from '../menu/menu';
-
 @Component({
   selector: 'app-shop',
   imports: [
-    MatButtonModule,
-    Menu
+    MatButtonModule
   ],
   templateUrl: './shop.html',
   styleUrl: './shop.css',

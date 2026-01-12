@@ -1,0 +1,19 @@
+.toolbar {
+    position: fixed;
+    --mat-toolbar-container-background-color: lavender;
+    --mat-toolbar-container-text-color: purple;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.full-page {
+    height: 100%;
+    margin: 0%;
+}
+
+.button {
+    text-align: right;
+    padding-right: 50px;
+}
