@@ -1,4 +1,4 @@
-import { Component, signal, ViewChild } from '@angular/core';
+import { Component, OnInit, signal, ViewChild } from '@angular/core';
 import { RouterOutlet, RouterModule } from '@angular/router';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -27,6 +27,7 @@ import {MatListModule} from '@angular/material/list';
 })
 
 export class App {
+  
   protected readonly title = signal('sofias-site');
 
   @ViewChild('sidenav') sidenav: MatSidenav;
@@ -34,5 +35,4 @@ export class App {
   close() {
     this.sidenav.close();
   }
-  
 }

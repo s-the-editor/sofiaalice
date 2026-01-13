@@ -6,13 +6,43 @@
   padding: 10px;
 }
 
-.flex-container {
-  display: flex;
+.center-gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 10px;
 }
 
-.cover-image {
-    display: flex;
-    width: 18%;
+.flex-container {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image {
+    display: block;
+    width: 30%;
     margin-right: 5px;
     margin-left: 5px;
+    align-self: center;
+    padding: 5px;
+}
+
+.image1 {
+    display: block;
+    width: 27%;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-self: center;
+    padding: 5px;
+}
+
+.image-horizontal {
+    display: block;
+    width: 48%;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-self: center;
+    padding: 5px;
 }
