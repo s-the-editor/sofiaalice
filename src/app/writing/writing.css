@@ -1,21 +1,21 @@
-.center {
+.center-mobile {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 100%;
   padding: 10px;
 }
 
-.flex-container {
-  display: flex;
+.image {
+    display: block;
+    align-self: center;
+    padding: 10px;
 }
 
 .cover-image {
-    display: flex;
-    width: 50%;
-    margin-right: 0px;
-    margin-left: 25px;
+    display: block;
+    align-self: center;
+    padding: 10px;
 }
+
 
 .cover-image-left {
     display: flex;

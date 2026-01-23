@@ -1,48 +1,12 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 10px;
-}
 
-.center-gallery {
+.center-mobile {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  width: 100%;
   padding: 10px;
-}
-
-.flex-container {
-  display: flex; 
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .image {
     display: block;
-    width: 30%;
-    margin-right: 5px;
-    margin-left: 5px;
     align-self: center;
-    padding: 5px;
-}
-
-.image1 {
-    display: block;
-    width: 27%;
-    margin-right: 5px;
-    margin-left: 5px;
-    align-self: center;
-    padding: 5px;
-}
-
-.image-horizontal {
-    display: block;
-    width: 48%;
-    margin-right: 5px;
-    margin-left: 5px;
-    align-self: center;
-    padding: 5px;
+    padding: 10px;
 }

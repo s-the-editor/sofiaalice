@@ -1,27 +1,23 @@
-.center {
+.center-mobile {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 100%;
   padding: 10px;
-}
-
-.flex-container {
-  display: flex;
 }
 
 .image {
-    display: flex;
-    width: 40%;
-    margin-right: 0px;
-    margin-left: 45px;
+    display: block;
+    align-self: center;
+    padding: 10px;
 }
 
 .insta-button {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
+  width: 200px;
 }

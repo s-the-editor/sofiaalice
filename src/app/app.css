@@ -1,7 +1,15 @@
+@import ".././tailwind.css";
+
 .toolbar {
     position: fixed;
     --mat-toolbar-container-background-color: lavender;
     --mat-toolbar-container-text-color: purple;
+}
+
+.toolbar2 {
+    position: fixed;
+    --mat-toolbar-container-background-color: lavender;
+    --mat-toolbar-container-text-color: green;
 }
 
 .menu {
