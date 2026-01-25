@@ -21,6 +21,7 @@
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
+  width: 225px;
 }
 
 .etsy-button {
@@ -32,6 +33,7 @@
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
+  width: 225px;
 }
 
 .insta-button {
@@ -43,4 +45,11 @@
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
+  width: 225px;
+}
+
+:host ::ng-deep .mat-mdc-fab {
+  background-color: lavender;
+  color: purple;
+  font-size: large;
 }

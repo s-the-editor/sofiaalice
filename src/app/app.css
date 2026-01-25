@@ -4,12 +4,7 @@
     position: fixed;
     --mat-toolbar-container-background-color: lavender;
     --mat-toolbar-container-text-color: purple;
-}
-
-.toolbar2 {
-    position: fixed;
-    --mat-toolbar-container-background-color: lavender;
-    --mat-toolbar-container-text-color: green;
+    --mat-toolbar-container-text-size: large;
 }
 
 .menu {

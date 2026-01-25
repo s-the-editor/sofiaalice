@@ -19,5 +19,11 @@
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
-  width: 200px;
+  width: 225px;
+}
+
+:host ::ng-deep .mat-mdc-fab {
+  background-color: lavender;
+  color: purple;
+  font-size: large;
 }
