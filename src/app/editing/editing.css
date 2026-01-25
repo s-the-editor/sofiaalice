@@ -20,6 +20,7 @@
   background-color: lavender;
   color: purple;
   font-size: large;
+  box-shadow: none !important;
 }
 
 
