@@ -1,0 +1,22 @@
+@import ".././tailwind.css";
+
+.toolbar {
+    position: fixed;
+    --mat-toolbar-container-background-color: lavender;
+    --mat-toolbar-container-text-color: purple;
+    --mat-toolbar-container-text-size: large;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.full-page {
+    min-height: 100dvh;
+    margin: 0%;
+}
+
+.button {
+    text-align: right;
+    padding-right: 50px;
+}

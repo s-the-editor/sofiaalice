@@ -1,18 +1,12 @@
-.center {
+
+.center-mobile {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 100%;
   padding: 10px;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.cover-image {
-    display: flex;
-    width: 18%;
-    margin-right: 5px;
-    margin-left: 5px;
+.image {
+    display: block;
+    align-self: center;
+    padding: 10px;
 }

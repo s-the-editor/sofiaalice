@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
-
-import { Menu } from '../menu/menu';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-editing',
   imports: [
     MatButtonModule,
-    Menu,
+    MatIconModule
   ],
   templateUrl: './editing.html',
   styleUrl: './editing.css',

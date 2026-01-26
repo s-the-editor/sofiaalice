@@ -1,18 +1,24 @@
 import { Component } from '@angular/core';
-import {MatButtonModule} from '@angular/material/button';
-
-import { Menu } from '../menu/menu';
-
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { RouterModule } from '@angular/router';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-home',
   imports: [
     MatButtonModule,
-    Menu,
+    MatIconModule,  
+    RouterModule,
+    MatTooltipModule  
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
-export class Home {
 
+export class Home {
+  constructor() {
+    
+  }
 }
+
