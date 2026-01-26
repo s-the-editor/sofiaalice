@@ -1,4 +1,3 @@
-
 <mat-sidenav-container
       class="full-page" (backdropClick)="close()">
     <mat-sidenav #sidenav (keydown.escape)="close()" disableClose>
@@ -20,7 +19,7 @@
     <mat-sidenav-content>
         
         <mat-toolbar class="toolbar">
-            <button matButton class="menu" (click)="sidenav.open()">
+            <button matButton class="menu" (click)="sidenav.open()" (click)="scrollToTop()">
                 <i class="material-icons">menu</i>
             </button>
             <i class="material-icons">auto_awesome</i>

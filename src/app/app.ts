@@ -7,6 +7,7 @@ import {MatSidenav, MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,7 @@ import {MatListModule} from '@angular/material/list';
       MatIconModule,
       MatButtonModule,
       MatToolbarModule, 
-      MatListModule
+      MatListModule,
     ],
   templateUrl: './app.html',
   styleUrl: './app.css'
@@ -34,5 +35,12 @@ export class App {
 
   close() {
     this.sidenav.close();
+  }
+
+  constructor(private scroller: ViewportScroller) {}
+
+  scrollToTop() {
+    // Scrolls to coordinates X: 0, Y: 0
+    this.scroller.scrollToPosition([0, 0]);
   }
 }
