@@ -1,0 +1,12 @@
+{
+  "routes": {
+    "/": {},
+    "/about": {},
+    "/art": {},
+    "/editing": {},
+    "/home": {},
+    "/reading": {},
+    "/shop": {},
+    "/writing": {}
+  }
+}
