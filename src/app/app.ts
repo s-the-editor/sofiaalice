@@ -9,6 +9,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import { ViewportScroller } from '@angular/common';
 
+import { Footer } from './footer/footer';
+
 @Component({
   selector: 'app-root',
   imports: 
@@ -22,6 +24,7 @@ import { ViewportScroller } from '@angular/common';
       MatButtonModule,
       MatToolbarModule, 
       MatListModule,
+      Footer
     ],
   templateUrl: './app.html',
   styleUrl: './app.css'

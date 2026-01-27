@@ -10,7 +10,7 @@
     padding: 10px;
 }
 
-.etsy-button {
+.button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -20,6 +20,18 @@
   padding-right: 50px;
   text-align: center;
   width: 225px;
+}
+
+.text-button {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  width: auto;
 }
 
 :host ::ng-deep .mat-mdc-fab {
