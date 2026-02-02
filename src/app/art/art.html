@@ -1,20 +1,73 @@
-<div class="overflow-x-hidden justify-center">
+<div class="overflow-x-hidden justify-center lg:pr-15 2xl:pr-50">
 <br><br><br><br>
-<div class="center-mobile lg:ml-15 2xl:ml-50 font-[Times_New_Roman]">
+<div class="center-mobile lg:ml-15 2xl:ml-50  font-[Times_New_Roman]">
     <h1 class="text-5xl pl-2 pr-2">Art</h1>
     <br>
-    <p class="text-lg pl-2 pr-2">A gallery of Sofia's favorite pieces.</p>
-</div>
+    
+    <div class="flex flex-row flex-wrap">
+    @for (card of cards; track card.title) {
+        <mat-card class="card md:w-100" appearance="outlined">
+            <mat-card-header>
+                <mat-card-title class="text-xl">{{ card.title }}</mat-card-title>
+                <mat-card-subtitle>{{ card.subtitle }}</mat-card-subtitle>
+            </mat-card-header>
+                <br>
+                <img mat-card-image [src]="card.imageUrl" alt="Photo of {{ card.title }}">
+                <br>
+                <mat-card-content>
+                    <p class="text-lg">{{ card.content }}</p>
+                </mat-card-content>
+        </mat-card>
+    }
 
-<div class="center-mobile lg:ml-15 2xl:ml-50">
+    </div>
 
-        <div class="lg:flex flex-row">
+
+    <!--<p class="text-lg pl-2 pr-2">A gallery of Sofia's favorite pieces.</p>-->
+
+        <!--<div class="lg:flex flex-row">
+            <div class="md:flex flex-row">
+            <mat-card class="card md:h-100" appearance="outlined">
+                <mat-card-header>
+                    <mat-card-title>Wire-Wrapped Pendant</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image class="image" src="art/pendant.jpeg">
+                <mat-card-content>
+                    <p>
+                    A wire-wrapped malachite pendant. 
+                    </p>
+                </mat-card-content>
+            </mat-card>
+            <mat-card class="card md:h-100" appearance="outlined">
+                <mat-card-header>
+                    <mat-card-title>Blue Sea Dragon Painting</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image class="image" src="art/sea-dragon.jpeg">
+                <mat-card-content>
+                    <p>
+                    A painting of a blue sea dragon. 
+                    </p>
+                </mat-card-content>
+            </mat-card>
+            </div>
+            <mat-card class="card" appearance="outlined">
+                <mat-card-header>
+                    <mat-card-title>The Witch's Bookshelf Puzzle Stamp</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image class="image" src="art/witch-shelf.jpeg">
+                <mat-card-content>
+                    <p>
+                    This stamp is actually comprised of four stamps! It was planted in Maine as a letterbox.
+                    </p>
+                </mat-card-content>
+            </mat-card>
             <img 
                 class="image lg:h-100 2xl:h-130" src="art/pendant.jpeg"/>         
             <img 
                 class="image lg:h-100 2xl:h-130" src="art/sea-dragon.jpeg"/> 
             <img 
-                class="image lg:h-100 2xl:h-130" src="art/witch-shelf.jpeg"/>  
+                class="image lg:h-100 2xl:h-130" src="art/witch-shelf.jpeg"/>
+            
         </div>
         
         <div class="lg:flex flex-row">
@@ -31,7 +84,7 @@
                 class="image lg:h-100 2xl:h-130" src="art/liliana-card.PNG"/>  
             <img 
                 class="image lg:h-100 2xl:h-130" src="art/elf1.jpeg"/>   
-        </div>
+        </div> -->
     </div> 
 
 </div>

@@ -6,7 +6,13 @@
 }
 
 .image {
-    display: block;
+    
     align-self: center;
     padding: 10px;
+}
+
+.card {
+  max-width: 500px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
