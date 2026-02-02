@@ -1,4 +1,20 @@
-# SofiasSite
+# SofiaAlice
+
+## Dev Log
+
+January 26th, 2026
+Added "Shop" page!
+
+January 26th, 2026
+Bug fixes.
+
+January 25th, 2026
+Added responsiveness using TailwindCSS. Website now works on mobile!
+
+January 5th, 2026
+Website created, built, and released!
+
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
 

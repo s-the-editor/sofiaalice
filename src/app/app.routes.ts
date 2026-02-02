@@ -7,6 +7,7 @@ import {Editing} from './editing/editing';
 import {Art} from './art/art';
 import {Reading} from './reading/reading';
 import {Shop} from './shop/shop';
+import {Works} from './works/works';
 
 export const routes: Routes = [
   {
@@ -40,6 +41,10 @@ export const routes: Routes = [
   {
     path: 'shop',
     component: Shop,
+  },
+  {
+    path: 'works',
+    component: Works,
   },
 ];
 

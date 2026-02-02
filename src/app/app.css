@@ -5,6 +5,17 @@
     --mat-toolbar-container-background-color: lavender;
     --mat-toolbar-container-text-color: purple;
     --mat-toolbar-container-text-size: large;
+    z-index: 2;
+}
+
+.mat-expansion-panel{
+    box-shadow: none !important;
+}
+
+.mat-expansion-panel-header-title {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 18px;
 }
 
 .menu {
@@ -19,4 +30,13 @@
 .button {
     text-align: right;
     padding-right: 50px;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    padding-bottom: 8px;
+}
+
+.inner-button {
+    text-align: right;
+    padding-right: 25px;
 }

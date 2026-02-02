@@ -5,15 +5,25 @@
         <i class="material-icons">menu_open</i>
       </button> -->
       <br><br><br>
+      <div class="text-2xl">
       <mat-nav-list>
         <mat-list-item class="button" matButton routerLink="/home" (click)="close()">Home</mat-list-item>
         <mat-list-item class="button" matButton routerLink="/about" (click)="close()">About</mat-list-item>
-        <mat-list-item class="button" matButton routerLink="/writing" (click)="close()">Writing</mat-list-item>
-        <!--<mat-list-item class="button" matButton routerLink="/editing" (click)="close()">Editing</mat-list-item>-->
-        <mat-list-item class="button" matButton routerLink="/art" (click)="close()">Art</mat-list-item>
-        <mat-list-item class="button" matButton routerLink="/reading" (click)="close()">Reading</mat-list-item>
+        <mat-list-item class="button" matButton routerLink="/works" (click)="close()">Works</mat-list-item>
+      <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title class="text-right">Projects</mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-nav-list>
+            <mat-list-item class="inner-button" matButton routerLink="/writing" (click)="close()">Writing</mat-list-item>
+              <!--<mat-list-item class="inner-button" matButton routerLink="/editing" (click)="close()">Editing</mat-list-item>-->
+              <mat-list-item class="inner-button" matButton routerLink="/art" (click)="close()">Art</mat-list-item>
+              <mat-list-item class="inner-button" matButton routerLink="/reading" (click)="close()">Reading</mat-list-item>
+            </mat-nav-list>
+        </mat-expansion-panel>
         <mat-list-item class="button" matButton routerLink="/shop" (click)="close()">Shop</mat-list-item>
       </mat-nav-list>
+      </div>
     </mat-sidenav>
 
     <mat-sidenav-content>
