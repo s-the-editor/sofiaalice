@@ -41,7 +41,7 @@ export class Art {
       title: 'Leaf Bag',
       subtitle: '',
       imageUrl: 'art/leaf-bag.jpeg',
-      content: 'A hand-sewn bag made for my elf Eenaissance Faire costume. Completed in October, 2025.',
+      content: 'A hand-sewn bag made for my elf Renaissance Faire costume. Completed in October, 2025.',
     },
     {
       title: 'Raven Cosplay',
