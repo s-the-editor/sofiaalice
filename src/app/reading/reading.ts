@@ -65,7 +65,7 @@ export class Reading {
     }, 
         {
       title: 'The Hunger Games',
-      subtitle: 'Holly Black',
+      subtitle: 'Suzanne Collins',
       imageUrl: 'bookcovers/HungerGames.jpg',
       content: '',
       genre: 'dystopian',
