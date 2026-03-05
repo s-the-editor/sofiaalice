@@ -8,6 +8,7 @@ import {Art} from './art/art';
 import {Reading} from './reading/reading';
 import {Shop} from './shop/shop';
 import {Works} from './works/works';
+import {Contact} from './contact/contact';
 
 export const routes: Routes = [
   {
@@ -45,6 +46,10 @@ export const routes: Routes = [
   {
     path: 'works',
     component: Works,
+  },
+  {
+    path: 'contact',
+    component: Contact,
   },
 ];
 
