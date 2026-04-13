@@ -16,6 +16,14 @@ import {MatChipsModule} from '@angular/material/chips';
 export class Reading {
   cards = [
     {
+      title: 'The Everlasting',
+      subtitle: 'Alix E. Harrow',
+      imageUrl: 'bookcovers/Everlasting.jpg',
+      content: '',
+      genre: 'fantasy',
+      series: 'standalone',
+    },
+    {
       title: 'Uprooted',
       subtitle: 'Naomi Novik',
       imageUrl: 'bookcovers/Uprooted.jpg',
