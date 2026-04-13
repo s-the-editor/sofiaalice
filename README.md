@@ -2,21 +2,25 @@
 
 ## Dev Log
 
-March 4th, 2026
+April 13th, 2026:
+Added recent books and art. 
+Updated wording.
+
+March 4th, 2026: 
 Updated formatting of "Art" and "Reading" pages.
 Centered pages. 
 Updated home page to include shop updates.
 
-January 26th, 2026
+January 26th, 2026: 
 Added "Shop" page!
 
-January 26th, 2026
+January 26th, 2026: 
 Bug fixes.
 
-January 25th, 2026
+January 25th, 2026: 
 Added responsiveness using TailwindCSS. Website now works on mobile!
 
-January 5th, 2026
+January 5th, 2026: 
 Website created, built, and released!
 
 
