@@ -14,6 +14,12 @@ import {MatCardModule} from '@angular/material/card';
 export class Art {
   cards = [
     {
+      title: 'Celestial Capelet',
+      subtitle: '',
+      imageUrl: 'art/cape.jpg',
+      content: 'A hand-sewn capelet created for the Riverside Revelry Renfaire in April, 2026. I also made the cloak clasp using silver wire and abalone cabochons.',
+    },
+    {
       title: 'Wire-Wrapped Pendant',
       subtitle: '',
       imageUrl: 'art/pendant.jpeg',
