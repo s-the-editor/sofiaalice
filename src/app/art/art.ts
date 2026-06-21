@@ -13,6 +13,18 @@ import {MatCardModule} from '@angular/material/card';
 })
 export class Art {
   cards = [
+    /*{
+      title: 'Wizard Costume',
+      subtitle: '',
+      imageUrl: '',
+      content: 'I made the hat out of EVA foam and covered it in fabric. I also sewed the cloak and wire-wrapped the cloak clasps. I wore this costume to [event].',
+    },*/
+    {
+      title: 'Beaded Orchid Necklace',
+      subtitle: '',
+      imageUrl: 'art/orchid.jpg',
+      content: 'A beaded orchid I made to wear to a wedding in July, 2026.',
+    },
     {
       title: 'Celestial Capelet',
       subtitle: '',
@@ -40,15 +52,15 @@ export class Art {
     {
       title: 'Wire-Wrapped Dragon',
       subtitle: '',
-      imageUrl: 'art/dragon.jpeg',
+      imageUrl: 'art/wire-dragon.jpg',
       content: 'A dragon made out of copper wire. The wings were given a blue-green patina. Completed in June, 2022.',
     },
-    {
+    /* {
       title: 'Leaf Bag',
       subtitle: '',
       imageUrl: 'art/leaf-bag.jpeg',
       content: 'A hand-sewn bag made for my elf Renaissance Faire costume. Completed in October, 2025.',
-    },
+    }, */
     {
       title: 'Raven Cosplay',
       subtitle: '',
@@ -67,6 +79,17 @@ export class Art {
       imageUrl: 'art/elf1.jpeg',
       content: 'An elf costume I made for King Richard\'s Faire in September, 2025. I handmade the headpiece, which is gold-plated copper wire, the leaves on the cloak, and the leaf bag.',
     },
-    
+    {
+      title: 'The World Beyond the Woods Book',
+      subtitle: '',
+      imageUrl: 'art/twbtw.jpg',
+      content: 'A hand-bound copy of my first completed novel, The World Beyond the Woods. The cover is hand-painted. Completed in August, 2021.',
+    },
+    {
+      title: 'Alex Fallen Doll',
+      subtitle: '',
+      imageUrl: 'art/doll.jpg',
+      content: 'A doll version of the main character of my first novel. The hair, face, and clothing are handmade. Completed in January of 2023.',
+    },
   ];
 }

@@ -9,6 +9,7 @@ import {Reading} from './reading/reading';
 import {Shop} from './shop/shop';
 import {Works} from './works/works';
 import {Contact} from './contact/contact';
+import {Resume} from './resume/resume';
 
 export const routes: Routes = [
   {
@@ -27,10 +28,10 @@ export const routes: Routes = [
     path: 'writing',
     component: Writing,
   },
-  {
+  /*{
     path: 'editing',
     component: Editing,
-  },
+  },*/
   {
     path: 'art',
     component: Art,
@@ -48,8 +49,12 @@ export const routes: Routes = [
     component: Works,
   },
   {
+    path: 'resume',
+    component: Resume,
+  },
+  /*{
     path: 'contact',
     component: Contact,
-  },
+  },*/
 ];
 
