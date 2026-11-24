@@ -2,6 +2,15 @@
 
 ## Dev Log
 
+November 23rd, 2026:
+Updated Works page to include new publication.
+Restructured Works page to better display images.
+Added new publication to Home page.
+Reorganized Home page.
+Added new art projects to Art page.
+Updated information on About, Home, and Writing pages.
+Removed dead routes from navigation. Removed Shop page.
+
 April 13th, 2026:
 Added recent books and art. 
 Updated wording.
