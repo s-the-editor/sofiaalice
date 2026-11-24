@@ -3,12 +3,13 @@ import {Routes} from '@angular/router';
 import {Home} from './home/home';
 import {About} from './about/about';
 import {Writing} from './writing/writing';
-import {Editing} from './editing/editing';
+//import {Editing} from './editing/editing';
 import {Art} from './art/art';
 import {Reading} from './reading/reading';
-import {Shop} from './shop/shop';
+//import {Shop} from './shop/shop';
 import {Works} from './works/works';
-import {Contact} from './contact/contact';
+//import {Contact} from './contact/contact';
+//import {Resume} from './resume/resume';
 
 export const routes: Routes = [
   {
@@ -27,10 +28,10 @@ export const routes: Routes = [
     path: 'writing',
     component: Writing,
   },
-  {
+  /*{
     path: 'editing',
     component: Editing,
-  },
+  },*/
   {
     path: 'art',
     component: Art,
@@ -39,17 +40,21 @@ export const routes: Routes = [
     path: 'reading',
     component: Reading,
   },
-  {
+  /*{
     path: 'shop',
     component: Shop,
-  },
+  },*/
   {
     path: 'works',
     component: Works,
   },
-  {
+  /*{
+    path: 'resume',
+    component: Resume,
+  },*/
+  /*{
     path: 'contact',
     component: Contact,
-  },
+  },*/
 ];
 
