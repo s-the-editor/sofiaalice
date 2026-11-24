@@ -5,7 +5,9 @@
 }
 
 .image {
-    display: block;
+    flex: 1 1 0;
+    min-width: 0; 
+    object-fit: cover;
     align-self: center;
     padding: 5px;
 }
@@ -20,6 +22,17 @@
   padding-right: 50px;
   text-align: center;
   width: 225px;
+}
+
+.card-image-row {
+  display: flex;
+  gap: 2px;
+}
+
+.card {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 :host ::ng-deep .mat-mdc-fab {

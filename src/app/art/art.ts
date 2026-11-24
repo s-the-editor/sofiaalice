@@ -13,12 +13,12 @@ import {MatCardModule} from '@angular/material/card';
 })
 export class Art {
   cards = [
-    /*{
+    {
       title: 'Wizard Costume',
       subtitle: '',
-      imageUrl: '',
-      content: 'I made the hat out of EVA foam and covered it in fabric. I also sewed the cloak and wire-wrapped the cloak clasps. I wore this costume to [event].',
-    },*/
+      imageUrl: 'art/wizard.jpg',
+      content: 'Hat, cloak, staff, bag, and pouch are all handmade! Worn to King Richard\'s Faire in 2026.',
+    },
     {
       title: 'Beaded Orchid Necklace',
       subtitle: '',

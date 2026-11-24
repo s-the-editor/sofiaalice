@@ -1,14 +1,40 @@
-<div class="overflow-x-hidden justify-center lg:ml-15 2xl:ml-50 lg:mr-15 2xl:mr-50">
+<div class="overflow-x-hidden justify-center">
 <br><br><br><br>
 
 <div class="center-mobile font-[Times_New_Roman]">
-    <h1 class="text-5xl pl-2 pr-2">Works</h1>
+    <h1 class="text-5xl pl-2 pr-2 lg:ml-15 lg:mr-15">Works</h1>
     <br><br>
 
-        <p class="text-2xl pl-5 pr-5">The Necromancer's Wife</p> 
-        <p class="text-lg pl-8">HAUNTER Review, Spring 2026</p>
+    <div class="flex flex-row flex-wrap justify-center">
+    @for (card of cards; track card.title) {
+        <mat-card class="card" appearance="raised">
+            <mat-card-content>
+                <p class="text-2xl text-left">{{ card.title }}</p>
+                <p class="text-xl">{{ card.subtitle }}</p>
+                <br>
+                <p class="text-lg">{{ card.content }}</p>
+            </mat-card-content>
+                <div class="card-image-row flex flex-row flex-wrap justify-center">
+                    <a [href]="card.link" target="_blank">
+                        <img class="image md:h-125 lg:h-140" [src]="card.imageUrl" alt="Photo of {{ card.title }}">
+                    </a>
+                    @if(card.image2 != null) {
+                        <a [href]="card.link" target="_blank">
+                            <img class="image md:h-125 lg:h-140" [src]="card.image2" alt="Photo of {{ card.title }}">
+                        </a>
+                    }
+                </div>
+                <br>
+                
+        </mat-card>
+    }
 
-        <br><br>
+    </div> 
+    
+    
+    <!--
+    
+    <br> <br>
 
         <p class="text-2xl pl-5 pr-5">The Emory Spoke</p> 
         <br>
@@ -36,5 +62,7 @@
             <img class="image lg:h-175" src="spoke/spokej14.jpg"/>
         
 </div>
+-->
+
 </div>
 

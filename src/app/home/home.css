@@ -10,6 +10,10 @@
     padding: 10px;
 }
 
+.ps-image {
+    object-fit: contain;
+}
+
 .button {
   display: flex;
   justify-content: space-between;
